@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Site de Teste de Áudio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .audio-container {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Teste de Compatibilidade de Áudio</h1>
+    <p>Use os players abaixo para verificar quais tipos de arquivos de áudio seu navegador suporta.</p>
+
+    <div class="audio-container">
+        <h2>MP3</h2>
+        <audio controls>
+            <source src="audio/example.mp3" type="audio/mpeg">
+            Seu navegador não suporta o formato MP3.
+        </audio>
+    </div>
+
+    <div class="audio-container">
+        <h2>WAV</h2>
+        <audio controls>
+            <source src="audio/example.wav" type="audio/wav">
+            Seu navegador não suporta o formato WAV.
+        </audio>
+    </div>
+
+    <div class="audio-container">
+        <h2>OGG</h2>
+        <audio controls>
+            <source src="audio/example.ogg" type="audio/ogg">
+            Seu navegador não suporta o formato OGG.
+        </audio>
+    </div>
+
+    <div class="audio-container">
+        <h2>AAC</h2>
+        <audio controls>
+            <source src="audio/example.aac" type="audio/aac">
+            Seu navegador não suporta o formato AAC.
+        </audio>
+    </div>
+
+</body>
+</html>
